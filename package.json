@@ -2,7 +2,7 @@
   "name": "invoice-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://apps.nomid.com/sig/",
+  "homepage": "https://apps.nomid.com/img/",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@chakra-ui/gatsby-plugin": "^2.0.1",
