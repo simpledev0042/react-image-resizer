@@ -1,0 +1,53 @@
+.customQr-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 2%;
+  width: 90vw;
+}
+
+.tile {
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 250px;
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.tile h2 {
+  margin: 1rem 0;
+}
+
+.tile span {
+  color: #989aa5;
+}
+
+.tile--image {
+  margin: 1rem 0;
+}
+
+@media (max-width: 1500px) {
+  .customQr-container {
+    margin: 2rem 8%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .customQr-container {
+    margin: 2rem 4%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .customQr-container {
+    margin: 2rem 2%;
+  }
+}
+
+@media (max-width: 600px) {
+  .tile {
+    margin: 1rem 0;
+  }
+}

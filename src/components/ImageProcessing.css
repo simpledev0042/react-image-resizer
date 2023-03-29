@@ -1,0 +1,50 @@
+.Processing-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.Image-container{
+    border-radius: 10px; 
+    height: 300px; 
+    width: 450px;
+    background-color: black; 
+    position: relative; 
+    overflow: hidden;
+}
+
+.Slider-zoom {
+    width: 450px;
+}
+
+#Flip-button {
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.Edit-image-div {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+@media (max-width: 970px) {
+	.Image-container{ 
+        height: 250px;
+        width: 350px;
+    }
+
+    .Edit-image-div {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 792px) {
+	.Edit-image-div {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

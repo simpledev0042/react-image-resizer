@@ -1,0 +1,50 @@
+.Image-upload-area {
+    margin: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Image-upload-border {
+    min-height: 100px;
+    height: auto;
+    max-width: 700px;
+    width: 50vw;
+    border: 1px;
+    background-color: #FAFBFB;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Image-upload-box {
+    margin: 2rem;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+.upload-image-button-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#upload-image-button {
+    margin: auto;
+}
+
+.Uploaded-image {
+    height: auto;
+    width: 70%;
+    min-height: 60px;
+    margin-bottom: 20px;
+}
+
+#file-upload-button {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,32 @@
+body {
+	font-family: "Poppins", sans-serif !important;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+p {
+	font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: "Recursive", sans-serif;
+}
+
+span {
+	font-family: "Poppins";
+}
+
+.breadcrumb-main {
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+	.breadcrumb-link {
+		font-size: 13px;
+	}
+}
