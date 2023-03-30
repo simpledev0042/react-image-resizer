@@ -104,6 +104,7 @@ function ImageListPart(props) {
   }
 
   function SelectedHandler(label, newHeight, newWidth) {
+    const ss = selectedImages;
     if (ticked) {
       let newSelected = selected - 1;
       dispatch(setSelected(newSelected));

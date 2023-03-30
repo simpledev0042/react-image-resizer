@@ -17,8 +17,8 @@ function ImageListSubpart(props) {
           columns={{ md: 3, sm: 2, xs: 1 }}
           spacing={1}
         >
-          {sizes.map((item) => (
-            <ImageListPart item={item} />
+          {sizes.map((item, index) => (
+            <ImageListPart item={item} key={index}/>
           ))}
         </Masonry>
       )}
